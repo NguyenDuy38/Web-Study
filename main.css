@@ -1,0 +1,65 @@
+:root {
+  --heading-color: #256;
+  --text-color: #404040;
+}
+
+.box1 {
+  color: var(--heading-color);
+}
+.desc {
+  color: var(--text-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: #333;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: red;
+  padding: 2px 4px 6px 8px;
+  border: 10px solid black;
+}
+
+.box-1 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+}
+
+.box-2 {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    /* Thêm phần đệm, cho nút dày lên */
+    /* Chương sau sẽ học chi tiết về padding */
+    padding: 8px 16px;
+
+    color: #fff;
+    background-color: rgba(240, 81, 35, 0.8);
+
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+
+    
+}
